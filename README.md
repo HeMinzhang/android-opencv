@@ -4,6 +4,9 @@ https://github.com/KDAB/android_openssl
 # how to update opencv
 copy opencv.pri to new opencv release folder
 
+# this is opencv 4.4.0
+this is opencv 4.4.0
+
 # How to use
 ## To add OpenCV in your QMake project, append the following to your .pro project file:
 
