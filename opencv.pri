@@ -1,6 +1,6 @@
 !contains(QT.network_private.enabled_features, openssl-linked) {
     CONFIG(release, debug|release): OPENCV_PATH = $$PWD
-
+                                else: OPENCV_PATH = $$PWD
 
             contains(ANDROID_TARGET_ARCH, armeabi-v7a) {
                 ANDROID_EXTRA_LIBS += \
